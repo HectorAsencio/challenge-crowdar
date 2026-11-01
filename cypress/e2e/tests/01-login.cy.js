@@ -1,6 +1,6 @@
 import LoginPage from '../../pages/LoginPage';
 
-describe('Login Test', () => {
+describe('Inicio de Sesión', () => {
     beforeEach(() => {
         LoginPage.visit();
     });
