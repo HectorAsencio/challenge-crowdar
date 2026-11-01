@@ -3,11 +3,12 @@
 ## Instalación
 
 1. Clonar repositorio.
-2. Abrir en terminal y ejecutar `npx cypress run`.
+2. Abrir en terminal y ejecutar `npm install`. Esto instalara las dependencias necesarias.
+3. Abrir en terminal y ejecutar `npx cypress run`.
    - Se desploegaran los resultados en la misma terminal.
    - Se generara un reporte en el archivo `reports/mochawesome.html`.
    - Las capturas de pantalla se guardan en `screenshots/` bajo el nombre del test que fallo.
-3. Opcionalmente, puede utilizar `npx cypress open` y ejecutar las pruebas E2E en un navegador de su elección (siempre y cuando este instalado en el equipo), observar el paso a paso y una instantánea de la ejecución en cada momento.
+4. Opcionalmente, puede utilizar `npx cypress open` y ejecutar las pruebas E2E en un navegador de su elección (siempre y cuando este instalado en el equipo), observar el paso a paso y una instantánea de la ejecución en cada momento.
 
 ## Scripts de Prueba
 
